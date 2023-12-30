@@ -75,6 +75,39 @@ Add a submit button for the form.
 Link the Bootstrap JavaScript file at the end of the body.
 
 # CODE:
+```
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-5">ABC Engineering College - Student Registration</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" class="form-control" id="course" placeholder="Enter your course" name="course">
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+# Output
 ![image](https://github.com/Lokhnath10/ODD2023-WT-Ex-10-BOOTSTRAP/assets/138969918/5b5674d6-2dc6-4112-9c4c-294b9d5d2db0)
 # RESULT:
 This code creates a Responsive student registration form for ABC Engineering College built with Bootstrap.
